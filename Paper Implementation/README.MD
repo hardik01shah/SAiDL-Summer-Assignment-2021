@@ -12,6 +12,9 @@ For getting familiar with encoder decoder architecture I studied the U-Net model
 
 FastDepth uses the MobileNetv1 as the encoder. MobileNetV1 presented a class of efficient models called MobileNets for mobile and embedded vision applications which used depth wise separable convolution operations to reduce the total parameters of the network. The architecture gave promising results on the ImageNet dataset. Since FastDepth was designed keeping in mind application on embedded systems, MobileNetv1 was used as the encoder.
 
+<img width="509" alt="img3" src="https://user-images.githubusercontent.com/61026273/129606026-cec14fc5-5f4c-4473-944d-8b15a92074df.png">
+
+
 The framework used for implementation is pytorch. The encoder is not trained and pretrained parameters on the ImageNet have been used. 
 
 For the upsampling layers the authors have proposed 4 techniques for decoding that includes using a TransConvolution operation (as used in U-Nets).
