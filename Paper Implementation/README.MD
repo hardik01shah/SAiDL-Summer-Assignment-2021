@@ -23,6 +23,7 @@ The authors have also provided a comparison of the performance when different sk
 
 
 ## References:
+
 1. https://towardsdatascience.com/review-mobilenetv1-depthwise-separable-convolution-light-weight-model-a382df364b69
 2. https://arxiv.org/abs/1903.03273 
 3. https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47#:~:text=The%20UNET%20was%20developed%20by,The%20architecture%20contains%20two%20paths.&text=Thus%20it%20is%20an%20end,accept%20image%20of%20any%20size.
